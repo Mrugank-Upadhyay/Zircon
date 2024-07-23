@@ -1,0 +1,57 @@
+.default-button {
+    -fx-base: #0066ff;
+    -fx-border-color: transparent;
+    -fx-border-style: solid;
+}
+
+.default-button:hover {
+    -fx-text-fill: white;
+}
+
+.error-button {
+    -fx-base: #FF0000;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+/*.register-button {*/
+/*    -fx-background-color: transparent;*/
+/*    -fx-border-width: 0;*/
+/*    -fx-border-color: transparent;*/
+/*    -fx-text-fill: #3f8af1;*/
+/*}*/
+
+.light-blue-btn {
+    -fx-text-fill: #008cff;
+    -fx-background-color: transparent;
+}
+
+/*.register-button:hover {*/
+/*    -fx-border-color: transparent, #0066ff;*/
+/*    -fx-font-weight: bold;*/
+/*    !*-fx-border-width: 1, 1;*!*/
+/*    -fx-border-style: solid, segments(1, 2);*/
+/*    -fx-border-insets: 1 1 1 1, 0;*/
+/*}*/
+
+/*.register-button:pressed {*/
+/*    -fx-background-color: #0066ff;*/
+/*    -fx-text-fill: white;*/
+/*}*/
+
+.cancel-button {
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-color: transparent;
+}
+
+.cancel-button:focused {
+    -fx-border-color: transparent, black;
+    /*-fx-border-width: 1, 1;*/
+    -fx-border-style: solid, segments(1, 2);
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.cancel-button:pressed {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+}

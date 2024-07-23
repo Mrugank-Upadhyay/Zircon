@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#
+# Create console launcher for POSIX
+#
+
+# version should match with application build.gradle
+# if this version is changed, be sure to update .gitignore
+VERSION="1.0.0"
+
+rm -rf "./application-$VERSION"
+cd ..
+./gradlew distZip
+unzip -d "launcher" "./application/build/distributions/application-$VERSION"
+cd "launcher/application-$VERSION/lib"
+rm *-win.jar
+cd ../../
+chmod 744 md 
+
+echo Package Completed

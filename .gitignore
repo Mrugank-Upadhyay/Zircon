@@ -1,0 +1,10 @@
+.gradle
+build/
+out/
+bin/
+.idea/
+*.class
+.DS_Store
+.vscode/
+
+launcher/application-1.0.0/

@@ -1,0 +1,143 @@
+.root {
+    -fx-background-color: -color-bg-inset;
+}
+
+.delimiter {
+    visibility: hidden;
+    -fx-font-size: 0.01em;
+}
+
+.paragraph-box:has-caret .delimiter {
+    visibility: visible;
+    -fx-font-size: 1em;
+}
+
+.styled-text-area {
+    -fx-font-size: 11pt;
+    -fx-padding: 1em;
+    -fx-background-color: -color-bg-default;
+}
+
+.paragraph-box {
+    -fx-background-color: none;
+}
+
+.paragraph-text {
+    -fx-padding: 0.2em 0;
+}
+
+.text {
+    -fx-fill: -color-fg-default;
+}
+
+.caret {
+    -fx-stroke: -color-accent-fg;
+}
+
+
+
+/* Block Elements */
+
+.heading1, .heading2, .heading3, .heading4, .heading5, .heading6 {
+    -fx-font-weight: 500;
+}
+
+.heading1 {
+    -fx-font-size: 3.052em;
+}
+
+.heading2 {
+    -fx-font-size: 2.441em;
+}
+
+.heading3 {
+    -fx-font-size: 1.953em;
+}
+
+.heading4 {
+    -fx-font-size: 1.563em;
+}
+
+.heading5 {
+    -fx-font-size: 1.25em;
+}
+
+.heading6 {
+    -fx-font-size: 1em;
+}
+
+.html {
+    -fx-font-family: 'Fira Code', monospace;
+}
+
+.html-comment {
+    -fx-opacity: 0.5;
+    -fx-font-style: italic;
+}
+
+.indented-code-block, .fenced-code-block {
+    -fx-font-family: 'Fira Code', monospace;
+    -fx-font-weight: 400;
+    -fx-background-color: -color-bg-subtle;
+    -fx-border-style: hidden solid inside hidden solid inside;
+    -fx-border-color: -color-border-subtle;
+    -fx-padding: 0 0.2em;
+    -fx-border-width: 2px;
+}
+
+
+.indented-code-block.rounded-top,.fenced-code-block.rounded-top {
+    /* border-style: top right bottom left */
+    -fx-border-style: solid inside solid inside hidden solid inside;
+    -fx-border-radius: 5 5 0 0;
+    -fx-padding: 0.2em 0.2em 0 0.2em;
+}
+
+.indented-code-block.rounded-bottom,.fenced-code-block.rounded-bottom {
+    -fx-border-style: hidden solid inside solid inside solid inside;
+    -fx-border-radius: 0 0 5 5;
+    -fx-padding: 0 0.2em 0.2em 0.2em;
+}
+
+.block-quote {
+    -fx-font-style: italic;
+    -fx-border-style: hidden hidden hidden solid;
+    -fx-border-width: 3px;
+    -fx-border-color: -color-accent-fg;
+    -fx-padding: 0 0 0 1em;
+    -fx-background-color: -color-bg-subtle;
+}
+
+.bullet-list,.ordered-list {
+    -fx-padding: 0.5em;
+}
+
+.bullet-list-item {
+    -fx-padding: 0.5em;
+}
+
+/* Inline Elements */
+
+.bold {
+    -fx-font-weight: 700;
+}
+
+.italic {
+    -fx-font-style: italic;
+}
+
+.code {
+    -fx-font-family: "Fira Code", monospace;
+    -fx-font-weight: 400;
+    -rtfx-background-color: -color-bg-subtle;
+    -rtfx-border-stroke-color: -color-border-default;
+    -rtfx-border-stroke-width: 2px;
+}
+
+.link {
+    -fx-fill: -color-accent-fg;
+}
+
+.link:hover {
+    -fx-underline: true;
+}

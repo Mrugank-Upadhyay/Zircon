@@ -1,0 +1,28 @@
+* {
+    -code-black: "#191a1c";
+    -code-bg0: "#2c2d30";
+    -code-bg1: "#35373b";
+    -code-bg2: "#3e4045";
+    -code-bg3: "#404247";
+    -code-bg-d: "#242628";
+    -code-bg-blue: "#79b7eb";
+    -code-bg-yellow: "#e6cfa1";
+    -code-fg: "#b1b4b9";
+    -code-purple: "#c27fd7";
+    -code-green: "#99bc80";
+    -code-orange: "#c99a6e";
+    -code-blue: "#68aee8";
+    -code-yellow: "#dfbe81";
+    -code-cyan: "#5fafb9";
+    -code-red: "#e16d77";
+    -code-grey: "#646568";
+    -code-light-grey: "#8b8d91";
+    -code-dark-cyan: "#316a71";
+    -code-dark-red: "#914141";
+    -code-dark-yellow: "#8c6724";
+    -code-dark-purple: "#854897";
+    -code-diff-add: "#32352f";
+    -code-diff-delete: "#342f2f";
+    -code-diff-change: "#203444";
+    -code-diff-text: "#32526c";
+}

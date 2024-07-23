@@ -1,0 +1,30 @@
+module application {
+    requires kotlin.stdlib;
+    requires javafx.controls;
+    requires kotlinx.coroutines.core.jvm;
+    requires shared;
+    requires org.fxmisc.richtext;
+    requires flexmark;
+    requires flexmark.pdf.converter;
+    requires flexmark.util.ast;
+    requires flexmark.test.util;
+    requires fuel;
+    requires kotlinx.serialization.core;
+    requires kotlinx.serialization.json;
+    requires result;
+    requires fuel.coroutines;
+    requires com.google.gson;
+    requires org.kordamp.ikonli.javafx;
+    requires atlantafx.base;
+    requires net.harawata.appdirs;
+    requires fr.brouillard.oss.cssfx;
+    requires reactfx;
+    requires flexmark.util.sequence;
+    requires flexmark.util.data;
+    requires java.desktop;
+    requires org.junit.jupiter.api;
+    requires junit;
+    exports com.editor.application;
+    opens com.editor.application.settings to kotlinx.serialization.core;
+    opens com.editor.application.api to kotlinx.serialization.core;
+}

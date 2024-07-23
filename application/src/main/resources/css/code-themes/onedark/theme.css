@@ -1,0 +1,27 @@
+.code-identifier {
+    -fx-fill: -code-red;
+}
+.code-keyword {
+    -fx-fill: -code-purple;
+}
+.code-keyword2 {
+    -fx-fill: -code-purple;
+}
+.code-number {
+    -fx-fill: -code-orange;
+}
+.code-comment {
+    -fx-fill: -code-grey;
+}
+.code-type {
+    -fx-fill: -code-blue;
+}
+.code-delimiter {
+    -fx-fill: -code-light-grey;
+}
+.code-operator {
+    -fx-fill: -code-purple;
+}
+.code-string {
+    -fx-fill: -code-green;
+}
